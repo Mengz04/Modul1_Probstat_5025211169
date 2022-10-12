@@ -10,7 +10,8 @@ Pada nomor satu diketahui bahwa distribusi yang digunakan adalah distribusi geom
   
   d. Diminta untuk mencetak histogram distribusi geometrik dengan highlight X=3, sehingga dipanggil fungsi pada source code untuk mendapatkan histogram sebagaimana berikut: ![image](https://user-images.githubusercontent.com/78022264/195272441-fc2391e4-5ba8-45fa-90f3-c8b8f71a49ef.png). histogram yang dibuat memiliki rentang hingga X=10 karena yang diperhatikan hanya pada X=3.
   
-  e. Diminta rataan dan variansi sehingga untuk rataan dipanggil fungsi sum(dgeom(0:100, .2)* 0:100) yang setara dengan E(X). Untuk variansi dipanggil fungsi sum(dgeom(0:100, .2)* 0:100* 0:100)-(sum((dgeom(0:100, .2)* 0:100)))^2 yang sejatinya setara dengan E(X^2)-(E(X))^2. Rentang yang digunakan hanya mencapai 100 karena dengan rentang tersebut telah mencapai nilai rataan yang tepat yakni 4 ((1-p)/p) dan variansi 20 ((1-p)/p^2). NB: Rumus rataan dan varians yang digunakan mengikuti fungsi bawaan dari Rstudio.
+  e. Diminta rataan dan variansi sehingga untuk rataan dipanggil fungsi sum(dgeom(0:100, .2)* 0:100) yang setara dengan E(X). Untuk variansi dipanggil fungsi sum(dgeom(0:100, .2)* 0:100* 0:100)-(sum((dgeom(0:100, .2)* 0:100)))^2 yang sejatinya setara dengan E(X^2)-(E(X))^2. Rentang yang digunakan hanya mencapai 100 karena dengan rentang tersebut telah mencapai nilai rataan yang tepat yakni 4 ((1-p)/p) dan variansi 20 ((1-p)/p^2).
+  NB: Rumus rataan dan varians yang digunakan mengikuti fungsi bawaan dari Rstudio.
 
 
 Pada nomor 2 dapat diketahui bahwa distribusi yang digunakan adalah distribusi binomial dengan n=20 dan p = 0.2.
