@@ -78,7 +78,8 @@ Pada nomor 6 distribusi yang digunakan adalah distribusi normal dengan ketentuan
     Pada #marker_1 merupakan proses pencarian variabel a yang memiliki nilai minimum yang lebih besar dari mean pada random_data. Pada #marker_1 merupakan proses pencarian variabel b yang memiliki nilai maximum yang lebih kecil dari mean pada random_data. 
     
   b. Diminta histogram dari distribusi normal yang telah didapat sehingga dipanggil     hist(dnorm(x, mean(random_data), sd(random_data)), breaks= 50, main = "5025211169_Muhammad Rafi Insan Fillah_Probstat_A_DNhistogram")
-      sekiranya tidak diperlukan screenshot histogram karena data yang digenerate adalah  random oleh sistem, sehingga dapat di-run sendiri.
+      Contoh salah satu histogram dengan random_data:
+      ![image](https://user-images.githubusercontent.com/78022264/195281970-3c59f9d6-539c-4cc7-a2b3-7f96860f7eee.png)
       
   c. Diminta nilai varians dari random_data yang didapat sehingga dipanggil fungsi var(random_data).
   
