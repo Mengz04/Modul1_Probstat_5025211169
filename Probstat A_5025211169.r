@@ -31,14 +31,16 @@ sum(dbinom(0:20, 20, .2)*0:20*0:20)-(sum(dbinom(0:20, 20, .2)*0:20))^2
 dpois(6, 4.5)
 #poin b
 hist(rpois(365, 4.5))
-#poin c (mean)
+#poin c
+all.equal(dpois(6, 4.5), mean(rpois(365, 4.5)==6))
+#poin d (mean)
 sum(dpois(0:50, 4.5)*0:50)
-#poin c (varians)
+#poin d (varians)
 sum(dpois(0:50, 4.5)*0:50*0:50)-(sum(dpois(0:50, 4.5)*0:50)^2)
 
 #nomor 4
 #poin a
-x = 0:45
+x = 0:20
 df <- data.frame(x)
 df$chisq_distribution <- dchisq(x, 10)
 df
@@ -82,7 +84,8 @@ dfdistribution <- data.frame(x)
 dfdistribution$norm_distribution <- dnorm(x, mean(random_data), sd(random_data))
 dfdistribution$zscore <- (x-mean(random_data))/sd(random_data)
 dfdistribution
+plot(random_data)
 #poin b
 hist(dnorm(x, mean(random_data), sd(random_data)), breaks= 50, main = "5025211169_Muhammad Rafi Insan Fillah_Probstat_A_DNhistogram")
-#poin c
+#poin b
 var(random_data)
